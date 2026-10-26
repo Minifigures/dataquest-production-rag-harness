@@ -1,0 +1,20 @@
+{"user_query": "How do I create a new branch and switch to it?", "topic": "branching", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-branch-02"}, {"chunk_id": "git-branch-01"}], "tags": ["basic"]}
+{"user_query": "Why is branching in git so fast?", "topic": "branching", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-branch-01"}], "tags": ["basic"]}
+{"user_query": "What is a fast-forward merge?", "topic": "merging", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-merge-01"}], "tags": ["basic"]}
+{"user_query": "When does git use a three-way merge?", "topic": "merging", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-merge-02"}], "tags": ["basic"]}
+{"user_query": "Why should I avoid rebasing shared commits?", "topic": "rebasing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-rebase-01"}], "tags": ["basic"]}
+{"user_query": "How do I squash commits before review?", "topic": "rebasing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-rebase-02"}], "tags": ["basic"]}
+{"user_query": "What is the difference between reset soft mixed and hard?", "topic": "undoing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-reset-01"}], "tags": ["basic"]}
+{"user_query": "How do I safely undo a commit that was already pushed?", "topic": "undoing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-revert-01"}], "tags": ["basic"]}
+{"user_query": "How do I save uncommitted changes temporarily?", "topic": "stashing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-stash-01"}], "tags": ["basic"]}
+{"user_query": "Does git stash include untracked files?", "topic": "stashing", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-stash-01"}], "tags": ["detail"]}
+{"user_query": "What is the difference between git fetch and git pull?", "topic": "remotes", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-remote-01"}], "tags": ["basic"]}
+{"user_query": "Which force push option is safer?", "topic": "remotes", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-remote-02"}], "tags": ["detail"]}
+{"user_query": "What is the difference between a lightweight and annotated tag?", "topic": "tagging", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-tag-01"}], "tags": ["basic"]}
+{"user_query": "How do I find which commit introduced a bug?", "topic": "history", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-bisect-01"}], "tags": ["basic"]}
+{"user_query": "How do I see a compact commit graph?", "topic": "history", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-log-01"}], "tags": ["detail"]}
+{"user_query": "Which git config level wins if they disagree?", "topic": "configuration", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-config-01"}], "tags": ["detail"]}
+{"user_query": "Are git hooks copied when a repository is cloned?", "topic": "configuration", "expected_behavior": "answer", "trusted_evidence": [{"chunk_id": "git-hooks-01"}], "tags": ["detail"]}
+{"user_query": "How do I configure Kubernetes ingress for my cluster?", "topic": "unknown", "expected_behavior": "refuse", "trusted_evidence": [], "tags": ["out-of-scope"]}
+{"user_query": "What is the capital of Portugal?", "topic": "unknown", "expected_behavior": "refuse", "trusted_evidence": [], "tags": ["out-of-scope"]}
+{"user_query": "How do I set up continuous deployment on Vercel?", "topic": "unknown", "expected_behavior": "refuse", "trusted_evidence": [], "tags": ["out-of-scope"]}
